@@ -1,8 +1,15 @@
 aid: airforestry
 name: Airforestry
-description: 'Airforestry is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: climate-energy; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'AirForestry is a Swedish climate-technology company developing autonomous
+  electric drones that perform forest thinning from the air. Its system pairs AI and
+  computer vision for tree identification and selection with a lightweight aerial harvesting
+  tool, letting a fleet of drones fell and extract trees without ground machinery.
+  The result is forestry with zero soil compaction, no root damage and no machine tracks,
+  higher operational efficiency, and lower emissions than conventional harvesters, while
+  increasing forest growth and carbon sequestration. The company was surfaced as a
+  portfolio company of Northzone and added to the API Evangelist network. It currently
+  publishes a marketing and news presence but no public developer, API, or documentation
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/airforestry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,32 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://airforestry.com/wp-content/uploads/sites/2/2025/09/Logotype-1.svg
 tags:
 - Company
-- Climate Energy; Ai
+- Climate
+- Energy
+- Forestry
+- Drones
+- Autonomous
+- Robotics
+- Artificial Intelligence
+- Sustainability
+- Carbon
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/airforestry-domain-security.yml
 - type: Website
   url: https://www.airforestry.com
+- type: Blog
+  url: https://airforestry.com/news/
+- type: PrivacyPolicy
+  url: https://airforestry.com/privacy-policy/
+- type: Support
+  url: https://airforestry.com/contact/
+- type: GitHubOrganization
+  url: https://github.com/airforestry
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
